@@ -31,6 +31,18 @@ reader.question("What would you like to calculate?", function(input){
 			let answer = Math.sqrt(num1)
 			console.log(answer);
 			break;
+		case "square":
+			console.log(Math.pow(num1,2));
+			break;
+		case "cube":
+			console.log(Math.pow(num1, 3));
+			break;
+		case "pow":
+			console.log(Math.pow(num1, num2));
+			break;
+		case "modu":
+			console.log(num1%num2);
+			break;
 		default:
 			break;
 		}
