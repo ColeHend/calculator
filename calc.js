@@ -17,7 +17,7 @@ reader.question("What would you like to calculate?", function(input){
 	switch (mathSymbol) {
 		case "+":
 			console.log(num1+num2);
-			//break;
+			break;
 		case "-":
 			console.log(num1-num2);
 			break;
